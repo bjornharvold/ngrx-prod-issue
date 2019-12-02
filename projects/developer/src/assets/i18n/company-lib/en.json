@@ -1,0 +1,8 @@
+{
+  "FORM": {
+    "TITLE": "What do you want to call your organization?",
+    "NAME": "Name",
+    "NAME_PLACEHOLDER": "Enter organization name",
+    "NAME_HELP": "This can be anything and you can always change it later. E.g. Awesome org!"
+  }
+}

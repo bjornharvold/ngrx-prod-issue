@@ -1,0 +1,40 @@
+{
+  "HOME": "Home",
+  "TITLE_PLURAL": "Organizations",
+  "CREATE": "Create new organization",
+  "HELP": "Group your websites, payment details and access within an organization.",
+  "COMPANY_HELP": "Keep a card on file for our paid APIs.",
+  "COMPANY_DESCRIPTION": "Your organization lets you manage which users have access to your organization, create applications, read our documentation and manage your payment settings.",
+  "GO_TO": "Create your first organization",
+  "TITLE": "Organizations",
+  "MANAGE": "Manage organization",
+  "MANAGE_APPS": "Manage applications",
+  "MANAGE_APPS_HELP": "Create applications to start accessing data on our platform.",
+  "CREATE_APP": "Create app",
+  "CREATE_USER": "Add user",
+  "MANAGE_USERS": "Manage users",
+  "MANAGE_USERS_HELP": "Add / Remove users you wish to help manage your organization.",
+  "NO_MANAGERS": "You have no other managers yet",
+  "NO_APPS": "You have not created any apps yet",
+  "LATEST_APPS": "Latest apps",
+  "LET_GET_STARTED": "Let's get started",
+  "DESCRIPTION": "First, you need to create an organization that groups your websites, payment details and manages access to our APIs in one place.",
+  "UPDATE": "Update company information",
+  "CUSTOMER": {
+    "ADD_CARD": "Add card",
+    "TITLE": "Payment method",
+    "SUB_TITLE": "Integrators only",
+    "NO_CARD_ON_FILE": "No card on file",
+    "DESCRIPTION": "Add a credit card if you are going to use our APIs or SDK",
+    "BILLING_INFORMATION": "Add your credit card"
+  },
+  "USER": {
+    "FORM": {
+      "TITLE": "Add new manager to organization",
+      "USER_NOT_FOUND": "That user doesn't exist",
+      "EMAIL": "E-mail",
+      "EMAIL_PLACEHOLDER": "Enter e-mail",
+      "EMAIL_HELP": "Enter the e-mail of the user you want to give access to your organization."
+    }
+  }
+}

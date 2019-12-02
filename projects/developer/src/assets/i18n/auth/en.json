@@ -1,0 +1,77 @@
+{
+  "COMMON": {
+    "EMAIL": "E-mail",
+    "EMAIL_REQUIRED": "Email is required",
+    "EMAIL_NOT_VALID": "Not a valid email address",
+    "ENTER_REGISTERED_EMAIL": "Enter the email you registered with",
+    "REGISTER": "Register",
+    "FIRST_NAME_PLACEHOLDER": "Enter your first name...",
+    "LAST_NAME_PLACEHOLDER": "Enter your last name...",
+    "FIRST_NAME_REQUIRED": "First name is required",
+    "LAST_NAME_REQUIRED": "Last name is required"
+  },
+  "FORGOT_PASSWORD": {
+    "TITLE": "Password recovery",
+    "INFO": "In case you forgot your password.",
+    "EXPECTATION": "You will receive an email to this email address containing a code to reset your password. Do not try to reset your password if you haven't yet activated your user account. Activate your account first using the verification code we sent you via email.",
+    "KNOW_YOUR_PASSWORD": "Know your password?",
+    "HAVE_A_CODE": "Already received a code?",
+    "CHANGE_PASSWORD": "Update password",
+    "REQUEST_PASSWORD_RESET": "Request reset"
+  },
+  "RESEND_EMAIL": {
+    "CLICK_TO_RESEND_EMAIL": "Resend email",
+    "CLICK_TO_VERIFY_EMAIL": "Verify account",
+    "TITLE": "Resend welcome email",
+    "INFO": "Resend your welcome email.",
+    "REQUEST_WELCOME_EMAIL": "Resend email",
+    "EXPECTATION": "If you did not receive your welcome email or in case your verification code is out dated, type in your email to receive a new email containing a code you can use to verify your account."
+  },
+  "RESET_PASSWORD": {
+    "TITLE": "Password reset",
+    "TRY_AGAIN": "Try again",
+    "INFO": "Create a new password for your account.",
+    "NEW_PASSWORD": "New password",
+    "VERIFICATION_CODE": "Verification code",
+    "ENTER_CODE_YOU_RECEIVED": "Enter code your received via email...",
+    "CODE_REQUIRED": "Code is required",
+    "RESET_PASSWORD": "RESET PASSWORD",
+    "RESEND_EMAIL": "Resend email",
+    "CODE_SYNTAX": "The code will look something like this: 856s2db3-049f-1ae7-bd5a-6ea9fe9dsbf6. Do not try to reset your password until you have activated your user account. You won't be able to log in until you have activated your account. Wait for the email containing your verification code.",
+    "DID_NOT_RECEIVE_EMAIL": "Did not receive an email?"
+  },
+  "REGISTER": {
+    "TITLE": "Register",
+    "REGISTER_ERROR": "Something happened. Please try again.",
+    "ALREADY_HAVE_AN_ACCOUNT": "Already have an account?",
+    "FIRST_NAME": "First name",
+    "LAST_NAME": "Last name",
+    "EMAIL_PLACEHOLDER": "Enter your email...",
+    "EMAIL_UNAVAILABLE": "E-mail is already taken",
+    "CHECKING_AVAILABILITY": "Checking availability...",
+    "CHOOSE_PASSWORD": "Choose a password",
+    "CONFIRM_PASSWORD": "Confirm password",
+    "CONFIRM_PASSWORD_PLACEHOLDER": "Retype your password",
+    "ENTER_PASSWORD": "Enter your password...",
+    "PASSWORDS_DO_NOT_MATCH": "Passwords don't match",
+    "PASSWORD_MISSING_ALPHA": "Password is missing an alphanumeric character",
+    "PASSWORD_MISSING_DIGIT": "Password is missing a numeric character",
+    "PASSWORD_MISSING_LOWERCASE": "Password is missing a lowercase character",
+    "PASSWORD_MISSING_UPPERCASE": "Password is missing an uppercase character",
+    "PASSWORD_MISSING_SPECIAL_CHAR": "Password is missing a special character",
+    "PASSWORD_TOO_SHORT": "Password is too short",
+    "PASSWORD_TOO_LONG": "Password is too long",
+    "INCORRECT_PASSWORD": "Password is incorrect",
+    "BUTTON_REGISTER": "Register",
+    "CREATE_TRAVELIKO_EXTRANET_ACCOUNT": "Click to create extranet account",
+    "PASSWORD_SYNTAX": "The password you create with us must be at least 8 characters; contain a lower case and an uppercase character, a number and a symbol"
+  },
+  "VERIFY_EMAIL": {
+    "TITLE": "Verify your email",
+    "INFO": "Enter the code we emailed you.",
+    "VERIFICATION_CODE": "Verification code",
+    "VERIFICATION_CODE_PLACEHOLDER": "Enter code your received via email...",
+    "CODE_REQUIRED": "Code is required",
+    "VERIFY": "Verify"
+  }
+}

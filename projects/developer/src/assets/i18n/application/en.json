@@ -1,0 +1,15 @@
+{
+  "GO_TO": "Create your first app",
+  "TITLE_PLURAL": "Applications",
+  "TITLE_SINGULAR": "Application",
+  "CREATE": "Create application",
+  "NEWBIE": "Just getting started?",
+  "APPLICATION_HELP": "Click on 'Manage' to work with this application.",
+  "GET_STARTED_HELP": "Let's get you set up with your first application.",
+  "HELP": "Applications gives your access to travel content, rates and the ability to create a booking for your customer. You can do so through our APIs or embeddable Web Components on your website.",
+  "CLIENT_ID": "Client ID",
+  "SECRET_KEY": "Secret key",
+  "DOMAINS_NUMBER": "No. of domains",
+  "DOMAINS": "Domains",
+  "ENABLED": "Active"
+}

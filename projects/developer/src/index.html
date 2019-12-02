@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Developer | iko.travel - A travel platform for developers</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <meta name="copyright" content="iko.travel and Traveliko.com is a registered trademark of Traveliko Singapore PTE.LTD."/>
+  <meta name="description" content="We offer the most powerful and intuitive tools for travel start-ups. Search, book and manage 1000s of hotels, car service and flights through one platform.">
+
+  <!-- Favicon stuff -->
+  <link rel="apple-touch-startup-image" href="/assets/img/icons/apple-touch-icon.png?v=OmJe5E7d2v">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-touch-icon.png?v=OmJe5E7d2v">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png?v=OmJe5E7d2v">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png?v=OmJe5E7d2v">
+  <link rel="manifest" href="/assets/img/icons/site.webmanifest?v=OmJe5E7d2v">
+  <link rel="mask-icon" href="/assets/img/icons/safari-pinned-tab.svg?v=OmJe5E7d2v" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/img/icons/favicon.ico?v=OmJe5E7d2v">
+  <meta name="apple-mobile-web-app-title" content="iko.travel developer">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="application-name" content="iko.travel developer">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- social -->
+  <meta property="og:image" content="https://developer.iko.travel/assets/img/open_graph_card.png"/>
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site" content="@ikotravel"/>
+  <meta name="twitter:title" content="iko.travel - A travel platform for developers"/>
+  <meta name="twitter:description" content="We offer the most powerful and intuitive tools for travel start-ups. Search, book and manage 1000s of hotels, car service and flights through one platform."/>
+  <meta property="og:url" content="https://developer.iko.travel"/>
+  <meta property="og:title" content="iko.travel - A travel platform for developers"/>
+  <meta property="og:description" content="We offer the most powerful and intuitive tools for travel start-ups. Search, book and manage 1000s of hotels, car service and flights through one platform."/>
+
+  <link rel="icon" type="image/x-icon" href="/assets/img/icons/favicon.ico?v=2">
+</head>
+<body>
+  <app-root>
+    <!-- `navbar-fixed-top` used to stop input fields from showing up ontop of pre-load overlay -->
+    <div class="pre-loader navbar-fixed-top" ng-animate-children>
+      <style type="text/css">
+
+        .spinning-preloader-container {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 1000;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          background: -webkit-linear-gradient(top, #fff 0, #f2f2f2 100%) #f2f2f2;
+          background: linear-gradient(to bottom, #fff 0, #f2f2f2 100%) #f2f2f2;
+          -webkit-transition: opacity .3s cubic-bezier(.645, .045, .355, 1);
+          transition: opacity .3s cubic-bezier(.645, .045, .355, 1)
+        }
+
+        .spinning-preloader-container > .spinning-preloader-elements, .spinning-preloader-container > .spinning-preloader-elements:after, .spinning-preloader-container > .spinning-preloader-elements:before {
+          border: 3px solid transparent;
+          border-radius: 50%
+        }
+
+        .spinning-preloader-container > .spinning-preloader-elements {
+          display: block;
+          width: 150px;
+          height: 150px;
+          border-top-color: #007bff;
+          z-index: 1500;
+          opacity: 1;
+          -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite
+        }
+
+        .spinning-preloader-container > .spinning-preloader-elements:after, .spinning-preloader-container > .spinning-preloader-elements:before {
+          content: '';
+          position: absolute
+        }
+
+        .spinning-preloader-container > .spinning-preloader-elements:before {
+          top: 5px;
+          left: 5px;
+          right: 5px;
+          bottom: 5px;
+          border-top-color: #28a745;
+          -webkit-animation: spin 3s linear infinite;
+          animation: spin 3s linear infinite
+        }
+
+        .spinning-preloader-container > .spinning-preloader-elements:after {
+          top: 15px;
+          left: 15px;
+          right: 15px;
+          bottom: 15px;
+          border-top-color: #dc3545;
+          -webkit-animation: spin 1.5s linear infinite;
+          animation: spin 1.5s linear infinite
+        }
+
+        .spinning-preloader-container.complete {
+          opacity: 0;
+          display: none
+        }
+
+        @-webkit-keyframes spin {
+          from {
+            -webkit-transform: rotateZ(0);
+            transform: rotateZ(0)
+          }
+          to {
+            -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg)
+          }
+        }
+
+        @keyframes spin {
+          from {
+            -webkit-transform: rotateZ(0);
+            transform: rotateZ(0)
+          }
+          to {
+            -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg)
+          }
+        }
+
+      </style>
+
+
+      <div class="spinning-preloader-container">
+        <div class="spinning-preloader-elements"></div>
+      </div>
+
+    </div>
+  </app-root>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+</body>
+</html>

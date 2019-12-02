@@ -1,0 +1,481 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "common-lib": [
+        "dist/common-lib"
+      ],
+      "subscription-lib": [
+        "dist/subscription-lib"
+      ],
+      "subscription-lib/*": [
+        "dist/subscription-lib/*"
+      ],
+      "parity-plus-lib": [
+        "dist/parity-plus-lib"
+      ],
+      "parity-plus-lib/*": [
+        "dist/parity-plus-lib/*"
+      ],
+      "add-on-lib": [
+        "dist/add-on-lib"
+      ],
+      "add-on-lib/*": [
+        "dist/add-on-lib/*"
+      ],
+      "registration-lib": [
+        "dist/registration-lib"
+      ],
+      "registration-lib/*": [
+        "dist/registration-lib/*"
+      ],
+      "analytics-lib": [
+        "dist/analytics-lib"
+      ],
+      "analytics-lib/*": [
+        "dist/analytics-lib/*"
+      ],
+      "announcement-lib": [
+        "dist/announcement-lib"
+      ],
+      "announcement-lib/*": [
+        "dist/announcement-lib/*"
+      ],
+      "attraction-lib": [
+        "dist/attraction-lib"
+      ],
+      "attraction-lib/*": [
+        "dist/attraction-lib/*"
+      ],
+      "green-index-lib": [
+        "dist/green-index-lib"
+      ],
+      "green-index-lib/*": [
+        "dist/green-index-lib/*"
+      ],
+      "guest-room-lib": [
+        "dist/guest-room-lib"
+      ],
+      "guest-room-lib/*": [
+        "dist/guest-room-lib/*"
+      ],
+      "room-rate-lib": [
+        "dist/room-rate-lib"
+      ],
+      "room-rate-lib/*": [
+        "dist/room-rate-lib/*"
+      ],
+      "rate-plan-lib": [
+        "dist/rate-plan-lib"
+      ],
+      "rate-plan-lib/*": [
+        "dist/rate-plan-lib/*"
+      ],
+      "booking-lib": [
+        "dist/booking-lib"
+      ],
+      "booking-lib/*": [
+        "dist/booking-lib/*"
+      ],
+      "package-lib": [
+        "dist/package-lib"
+      ],
+      "package-lib/*": [
+        "dist/package-lib/*"
+      ],
+      "special-rate-lib": [
+        "dist/special-rate-lib"
+      ],
+      "special-rate-lib/*": [
+        "dist/special-rate-lib/*"
+      ],
+      "restaurant-lib": [
+        "dist/restaurant-lib"
+      ],
+      "restaurant-lib/*": [
+        "dist/restaurant-lib/*"
+      ],
+      "meeting-room-lib": [
+        "dist/meeting-room-lib"
+      ],
+      "meeting-room-lib/*": [
+        "dist/meeting-room-lib/*"
+      ],
+      "spa-lib": [
+        "dist/spa-lib"
+      ],
+      "spa-lib/*": [
+        "dist/spa-lib/*"
+      ],
+      "recreation-lib": [
+        "dist/recreation-lib"
+      ],
+      "recreation-lib/*": [
+        "dist/recreation-lib/*"
+      ],
+      "ref-point-lib": [
+        "dist/ref-point-lib"
+      ],
+      "ref-point-lib/*": [
+        "dist/ref-point-lib/*"
+      ],
+      "policy-lib": [
+        "dist/policy-lib"
+      ],
+      "policy-lib/*": [
+        "dist/policy-lib/*"
+      ],
+      "authentication-lib": [
+        "dist/authentication-lib"
+      ],
+      "authentication-lib/*": [
+        "dist/authentication-lib/*"
+      ],
+      "notification-lib": [
+        "dist/notification-lib"
+      ],
+      "notification-lib/*": [
+        "dist/notification-lib/*"
+      ],
+      "recognition-lib": [
+        "dist/recognition-lib"
+      ],
+      "recognition-lib/*": [
+        "dist/recognition-lib/*"
+      ],
+      "profile-lib": [
+        "dist/profile-lib"
+      ],
+      "profile-lib/*": [
+        "dist/profile-lib/*"
+      ],
+      "icons-lib": [
+        "dist/icons-lib"
+      ],
+      "icons-lib/*": [
+        "dist/icons-lib/*"
+      ],
+      "perk-lib": [
+        "dist/perk-lib"
+      ],
+      "perk-lib/*": [
+        "dist/perk-lib/*"
+      ],
+      "organization-lib": [
+        "dist/organization-lib"
+      ],
+      "organization-lib/*": [
+        "dist/organization-lib/*"
+      ],
+      "hotel-lib": [
+        "dist/hotel-lib"
+      ],
+      "hotel-lib/*": [
+        "dist/hotel-lib/*"
+      ],
+      "point-of-interest-lib": [
+        "dist/point-of-interest-lib"
+      ],
+      "point-of-interest-lib/*": [
+        "dist/point-of-interest-lib/*"
+      ],
+      "hotelier-lib": [
+        "dist/hotelier-lib"
+      ],
+      "hotelier-lib/*": [
+        "dist/hotelier-lib/*"
+      ],
+      "review-lib": [
+        "dist/review-lib"
+      ],
+      "review-lib/*": [
+        "dist/review-lib/*"
+      ],
+      "position-lib": [
+        "dist/position-lib"
+      ],
+      "position-lib/*": [
+        "dist/position-lib/*"
+      ],
+      "channel-communication-lib": [
+        "dist/channel-communication-lib"
+      ],
+      "channel-communication-lib/*": [
+        "dist/channel-communication-lib/*"
+      ],
+      "bucket-list-lib": [
+        "dist/bucket-list-lib"
+      ],
+      "bucket-list-lib/*": [
+        "dist/bucket-list-lib/*"
+      ],
+      "geo-name-lib": [
+        "dist/geo-name-lib"
+      ],
+      "geo-name-lib/*": [
+        "dist/geo-name-lib/*"
+      ],
+      "lifestyle-lib": [
+        "dist/lifestyle-lib"
+      ],
+      "lifestyle-lib/*": [
+        "dist/lifestyle-lib/*"
+      ],
+      "google-tag-manager-lib": [
+        "dist/google-tag-manager-lib"
+      ],
+      "google-tag-manager-lib/*": [
+        "dist/google-tag-manager-lib/*"
+      ],
+      "tawk-to-lib": [
+        "dist/tawk-to-lib"
+      ],
+      "tawk-to-lib/*": [
+        "dist/tawk-to-lib/*"
+      ],
+      "google-maps-lib": [
+        "dist/google-maps-lib"
+      ],
+      "google-maps-lib/*": [
+        "dist/google-maps-lib/*"
+      ],
+      "user-lib": [
+        "dist/user-lib"
+      ],
+      "user-lib/*": [
+        "dist/user-lib/*"
+      ],
+      "rate-lib": [
+        "dist/rate-lib"
+      ],
+      "rate-lib/*": [
+        "dist/rate-lib/*"
+      ],
+      "application-utils-lib": [
+        "dist/application-utils-lib"
+      ],
+      "application-utils-lib/*": [
+        "dist/application-utils-lib/*"
+      ],
+      "date-utils-lib": [
+        "dist/date-utils-lib"
+      ],
+      "date-utils-lib/*": [
+        "dist/date-utils-lib/*"
+      ],
+      "user-session-lib": [
+        "dist/user-session-lib"
+      ],
+      "user-session-lib/*": [
+        "dist/user-session-lib/*"
+      ],
+      "location-lib": [
+        "dist/location-lib"
+      ],
+      "location-lib/*": [
+        "dist/location-lib/*"
+      ],
+      "form-utils-lib": [
+        "dist/form-utils-lib"
+      ],
+      "form-utils-lib/*": [
+        "dist/form-utils-lib/*"
+      ],
+      "language-lib": [
+        "dist/language-lib"
+      ],
+      "language-lib/*": [
+        "dist/language-lib/*"
+      ],
+      "currency-lib": [
+        "dist/currency-lib"
+      ],
+      "currency-lib/*": [
+        "dist/currency-lib/*"
+      ],
+      "geo-ip-lib": [
+        "dist/geo-ip-lib"
+      ],
+      "geo-ip-lib/*": [
+        "dist/geo-ip-lib/*"
+      ],
+      "credit-card-lib": [
+        "dist/credit-card-lib"
+      ],
+      "credit-card-lib/*": [
+        "dist/credit-card-lib/*"
+      ],
+      "newsletter-lib": [
+        "dist/newsletter-lib"
+      ],
+      "newsletter-lib/*": [
+        "dist/newsletter-lib/*"
+      ],
+      "kendo-lib": [
+        "dist/kendo-lib"
+      ],
+      "kendo-lib/*": [
+        "dist/kendo-lib/*"
+      ],
+      "generic-components-lib": [
+        "dist/generic-components-lib"
+      ],
+      "generic-components-lib/*": [
+        "dist/generic-components-lib/*"
+      ],
+      "booking-engine-lib": [
+        "dist/booking-engine-lib"
+      ],
+      "booking-engine-lib/*": [
+        "dist/booking-engine-lib/*"
+      ],
+      "engine-lib": [
+        "dist/engine-lib"
+      ],
+      "engine-lib/*": [
+        "dist/engine-lib/*"
+      ],
+      "channel-lib": [
+        "dist/channel-lib"
+      ],
+      "channel-lib/*": [
+        "dist/channel-lib/*"
+      ],
+      "online-travel-agency-lib": [
+        "dist/online-travel-agency-lib"
+      ],
+      "online-travel-agency-lib/*": [
+        "dist/online-travel-agency-lib/*"
+      ],
+      "channel-inventory-lib": [
+        "dist/channel-inventory-lib"
+      ],
+      "channel-inventory-lib/*": [
+        "dist/channel-inventory-lib/*"
+      ],
+      "cloudinary-lib": [
+        "dist/cloudinary-lib"
+      ],
+      "cloudinary-lib/*": [
+        "dist/cloudinary-lib/*"
+      ],
+      "social-login-lib": [
+        "dist/social-login-lib"
+      ],
+      "social-login-lib/*": [
+        "dist/social-login-lib/*"
+      ],
+      "rate-tester-lib": [
+        "dist/rate-tester-lib"
+      ],
+      "rate-tester-lib/*": [
+        "dist/rate-tester-lib/*"
+      ],
+      "crypto-currency-lib": [
+        "dist/crypto-currency-lib"
+      ],
+      "crypto-currency-lib/*": [
+        "dist/crypto-currency-lib/*"
+      ],
+      "paypal-lib": [
+        "dist/paypal-lib"
+      ],
+      "paypal-lib/*": [
+        "dist/paypal-lib/*"
+      ],
+      "third-party-lib": [
+        "dist/third-party-lib"
+      ],
+      "third-party-lib/*": [
+        "dist/third-party-lib/*"
+      ],
+      "special-rate-bundle-lib": [
+        "dist/special-rate-bundle-lib"
+      ],
+      "special-rate-bundle-lib/*": [
+        "dist/special-rate-bundle-lib/*"
+      ],
+      "brand-lib": [
+        "dist/brand-lib"
+      ],
+      "brand-lib/*": [
+        "dist/brand-lib/*"
+      ],
+      "stripe-lib": [
+        "dist/stripe-lib"
+      ],
+      "stripe-lib/*": [
+        "dist/stripe-lib/*"
+      ],
+      "caldav-lib": [
+        "dist/caldav-lib"
+      ],
+      "caldav-lib/*": [
+        "dist/caldav-lib/*"
+      ],
+      "hotel-card-lib": [
+        "dist/hotel-card-lib"
+      ],
+      "hotel-card-lib/*": [
+        "dist/hotel-card-lib/*"
+      ],
+      "window-lib": [
+        "dist/window-lib"
+      ],
+      "window-lib/*": [
+        "dist/window-lib/*"
+      ],
+      "pwa-support-lib": [
+        "dist/pwa-support-lib"
+      ],
+      "pwa-support-lib/*": [
+        "dist/pwa-support-lib/*"
+      ],
+      "google-recaptcha-lib": [
+        "dist/google-recaptcha-lib"
+      ],
+      "google-recaptcha-lib/*": [
+        "dist/google-recaptcha-lib/*"
+      ],
+      "company-lib": [
+        "dist/company-lib"
+      ],
+      "company-lib/*": [
+        "dist/company-lib/*"
+      ],
+      "bootstrap-stepper-lib": [
+        "dist/bootstrap-stepper-lib"
+      ],
+      "bootstrap-stepper-lib/*": [
+        "dist/bootstrap-stepper-lib/*"
+      ],
+      "engine-components-lib": [
+        "dist/engine-components-lib"
+      ],
+      "engine-components-lib/*": [
+        "dist/engine-components-lib/*"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "preserveWhitespaces": false
+  }
+}

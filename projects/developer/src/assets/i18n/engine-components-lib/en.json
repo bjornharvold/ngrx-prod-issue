@@ -1,0 +1,39 @@
+{
+  "SECURITY": {
+    "TITLE": "Security",
+    "KEYS_DESCRIPTION": "Use these credentials to authenticate your API calls and our Web Components.",
+    "KEYS_HELP": "You can generate a new key pair at any time by clicking the button.",
+    "DOMAINS": "Domains",
+    "DOMAIN": "Domain",
+    "EXAMPLE": "Example: https://www.brand.com",
+    "ADD_DOMAIN": "Add domain",
+    "REMOVE_DOMAIN": "Remove domain",
+    "DOMAINS_DESCRIPTION": "Add the domains you will be using our Web Components on.",
+    "DOMAINS_HELP": "Only sites that have been added to this list will work with our Web Components.",
+    "DOMAIN_HELP": "Specify a fully qualified domain name. Include non-standard port. Wildcards are not allowed. E.g. https://www.mysite.com or https://www.mysite.com:999 if you are using a non-standard port.",
+    "DOMAIN_ERROR": "Please provide a valid domain",
+    "GENERATE_KEY": "Generate API key",
+    "REGENERATE": "Generate keys",
+    "API_KEYS": "API keys",
+    "CLIENT_ID": "Client ID",
+    "CLIENT_ID_HELP": "The client ID is used when you embed any of our Web Components onto your site.",
+    "SECRET_KEY": "Secret key",
+    "SECRET_KEY_HELP": "The secret key is used together with the client ID when you want to communicate with our APIs.",
+    "FIRST_TIME_NOTICE_DESCRIPTION": "This is your first time configuring the booking engine. Click on the 'Generate API key' button."
+  },
+  "FORM": {
+    "EXAMPLE": "Example: https://www.brand.com",
+    "ADD_DOMAIN": "Add domain",
+    "REMOVE_DOMAIN": "Remove domain",
+    "DOMAINS_DESCRIPTION": "Add your brand.com domain and other domains you want to give access to here.",
+    "DOMAINS_HELP": "The booking engine will not work if you try to use it on a site that doesn't have access.",
+    "DOMAIN_HELP": "Specify a fully qualified domain name. Include non-standard port. Wildcards are not allowed. E.g. https://www.brand.com or https://www.brand.com:<port number> if you are using a non-standard port.",
+    "DOMAIN_ERROR": "Please provide a valid domain",
+    "TITLE": "What do you want to call your application?",
+    "NAME": "Name",
+    "ACTIVE": "Active",
+    "ACTIVE_HELP": "Easily disable the application by flipping the switch to OFF.",
+    "NAME_PLACEHOLDER": "Enter application name",
+    "NAME_HELP": "We recommend using an easy name that describes where or how this application will be used. E.g. 'myownsite.com' or 'My Mobile Travel app'."
+  }
+}

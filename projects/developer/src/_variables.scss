@@ -1,0 +1,13 @@
+// Bootstrap variables
+//$primary: #3498db;
+//$secondary: #e67e22;
+//$success: #2ecc71;
+//$danger: #e74c3c;
+
+//-------------------- Font Families --------------------//
+$font-main: 					Roboto,'Helvetica Neue',sans-serif;
+
+// Header / Footer height
+$header-height: 55px;
+$footer-height: 40px;
+$header-footer-height: calc(#{$header-height} + #{$footer-height});

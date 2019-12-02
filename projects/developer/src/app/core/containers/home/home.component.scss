@@ -1,0 +1,10 @@
+.hljs {
+  display: block;
+  padding: 24px 24px 64px;
+  overflow-x: auto;
+  color: black;
+}
+
+.hljs-string, .hljs-number, .hljs-regexp, .hljs-variable, .hljs-template-variable {
+  color: #20bbb6;
+}
